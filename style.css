@@ -307,24 +307,51 @@ textarea {
 
 .hero-scope {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
-  max-width: 680px;
-  margin-top: 26px;
+  gap: 0;
+  max-width: 760px;
+  margin-top: 30px;
+  padding: 14px 0;
+  border-top: 1px solid rgba(20, 78, 132, 0.2);
+  border-bottom: 1px solid rgba(20, 78, 132, 0.16);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.16) 68%, rgba(255, 255, 255, 0));
+  backdrop-filter: blur(4px);
 }
 
 .hero-scope span {
   display: inline-flex;
   align-items: center;
-  min-height: 34px;
-  padding: 0 13px;
-  color: #173c62;
-  background: rgba(255, 255, 255, 0.68);
-  border: 1px solid rgba(45, 116, 173, 0.18);
-  border-radius: 8px;
-  font-size: 13px;
-  font-weight: 800;
-  backdrop-filter: blur(12px);
+}
+
+.scope-label {
+  margin-right: 26px;
+  color: #1f6ea9;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+}
+
+.scope-item {
+  position: relative;
+  min-height: 22px;
+  padding: 0 20px;
+  color: #102b48;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+}
+
+.scope-item + .scope-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 1px;
+  height: 15px;
+  background: rgba(20, 78, 132, 0.24);
+  transform: translateY(-50%);
 }
 
 .hero-actions {
@@ -1062,17 +1089,24 @@ textarea {
   }
 
   .hero-scope {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 8px;
-    margin-top: 22px;
+    gap: 10px 0;
+    margin-top: 24px;
+    padding: 13px 0;
   }
 
   .hero-scope span {
-    justify-content: center;
-    min-height: 32px;
-    padding: 0 10px;
-    font-size: 12px;
+    justify-content: flex-start;
+  }
+
+  .scope-label {
+    flex: 0 0 100%;
+    margin-right: 0;
+    font-size: 10px;
+  }
+
+  .scope-item {
+    padding: 0 13px;
+    font-size: 13px;
   }
 
   .hero-actions {
