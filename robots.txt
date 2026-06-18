@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# 上线前请将域名替换为正式网站域名。
-Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://gengjaer.github.io/ouya-construction-website/sitemap.xml
