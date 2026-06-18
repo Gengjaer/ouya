@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://gengjaer.github.io/ouya-construction-website/</loc>
+    <loc>https://gengjaer.github.io/ouya/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://gengjaer.github.io/ouya-construction-website/about.html</loc>
+    <loc>https://gengjaer.github.io/ouya/about.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gengjaer.github.io/ouya-construction-website/services.html</loc>
+    <loc>https://gengjaer.github.io/ouya/services.html</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://gengjaer.github.io/ouya-construction-website/cases.html</loc>
+    <loc>https://gengjaer.github.io/ouya/cases.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gengjaer.github.io/ouya-construction-website/contact.html</loc>
+    <loc>https://gengjaer.github.io/ouya/contact.html</loc>
     <priority>0.8</priority>
   </url>
 </urlset>

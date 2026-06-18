@@ -4,4 +4,4 @@
 
 当前图片与部分项目内容为临时视觉示意，正式上线前需替换为公司真实资料、项目案例、联系方式与资质信息。
 
-预览地址：https://gengjaer.github.io/ouya-construction-website/
+预览地址：https://gengjaer.github.io/ouya/

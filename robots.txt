@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gengjaer.github.io/ouya-construction-website/sitemap.xml
+Sitemap: https://gengjaer.github.io/ouya/sitemap.xml
