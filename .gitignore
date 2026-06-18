@@ -1,0 +1,6 @@
+preview/
+*.zip
+CODEX_WEBSITE_BUILD_GUIDE.md
+node_modules/
+.DS_Store
+Thumbs.db

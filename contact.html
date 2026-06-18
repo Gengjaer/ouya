@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>联系我们 | 浙江欧亚建设工程有限公司</title>
+    <meta
+      name="description"
+      content="联系浙江欧亚建设工程有限公司，提交建筑工程、市政工程、园林绿化、钢结构、装饰工程等项目需求。"
+    />
+    <link rel="stylesheet" href="style.css?v=20260618-visual2" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="index.html" aria-label="浙江欧亚建设工程有限公司首页">
+        <span class="brand-mark" aria-hidden="true"><img src="assets/images/ouya-logo-mark.png" alt="" /></span>
+        <span class="brand-text">
+          <strong>浙江欧亚建设工程有限公司</strong>
+          <span>Zhejiang Ouya Construction Engineering Co., Ltd.</span>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="打开导航菜单" aria-expanded="false" data-menu-toggle>
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" data-nav>
+        <a href="index.html">首页</a>
+        <a href="about.html">关于欧亚</a>
+        <a href="services.html">服务范围</a>
+        <a href="cases.html">项目类型</a>
+        <a class="is-active" href="contact.html">联系我们</a>
+      </nav>
+      <a class="header-action" href="#inquiry">提交项目需求</a>
+    </header>
+
+    <main>
+      <section class="page-hero contact-hero">
+        <div class="page-hero-copy">
+          <p class="eyebrow">CONTACT OUYA</p>
+          <h1>联系我们</h1>
+          <p>如果有工程需求，可以先提交基础信息。正式电话、邮箱和二维码确认后可在此处补充。</p>
+        </div>
+        <div class="contact-card">
+          <div>
+            <span>公司地址</span>
+            <strong>浙江省嘉兴市南湖区创业路南10幢第五层508-4室</strong>
+          </div>
+          <div>
+            <span>联系电话</span>
+            <strong>待客户补充</strong>
+          </div>
+          <div>
+            <span>邮箱 / 微信</span>
+            <strong>待客户补充</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section contact-page-section" id="inquiry">
+        <div class="contact-copy">
+          <p class="section-kicker">INQUIRY</p>
+          <h2>提交项目需求</h2>
+          <p>
+            建议填写项目所在地、工程类型、大致面积或尺寸、是否已有图纸。第一版表单为静态演示，正式上线前可接入邮箱、微信或其他询盘工具。
+          </p>
+          <div class="contact-info">
+            <div>
+              <span>推荐填写内容</span>
+              <strong>地点 / 类型 / 面积 / 图纸 / 预计时间</strong>
+            </div>
+            <div>
+              <span>响应方式</span>
+              <strong>待客户确认电话或邮箱后补充</strong>
+            </div>
+          </div>
+        </div>
+
+        <form class="inquiry-form" data-form>
+          <label>
+            <span>姓名 / 公司名称</span>
+            <input type="text" name="name" placeholder="请输入姓名或公司名称" required />
+          </label>
+          <label>
+            <span>联系电话</span>
+            <input type="tel" name="phone" placeholder="请输入联系电话" required />
+          </label>
+          <label>
+            <span>项目所在地</span>
+            <input type="text" name="location" placeholder="例如：嘉兴南湖区" />
+          </label>
+          <label>
+            <span>工程类型</span>
+            <select name="type">
+              <option value="">请选择工程类型</option>
+              <option>建筑工程</option>
+              <option>市政工程</option>
+              <option>园林绿化工程</option>
+              <option>钢结构工程</option>
+              <option>室内外装饰工程</option>
+              <option>其他工程需求</option>
+            </select>
+          </label>
+          <label class="full-field">
+            <span>项目描述</span>
+            <textarea name="message" rows="5" placeholder="请简单描述项目面积、阶段、是否已有图纸等信息"></textarea>
+          </label>
+          <button class="btn primary full-field" type="submit">提交项目需求</button>
+          <p class="form-note" data-form-note>当前为静态演示表单，正式上线前可接入邮箱或其他询盘方式。</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div><strong>浙江欧亚建设工程有限公司</strong><span>建设工程综合服务 · 嘉兴南湖</span></div>
+      <p>© <span data-year></span> Zhejiang Ouya Construction Engineering Co., Ltd.</p>
+    </footer>
+    <div class="mobile-contact-bar" aria-label="移动端联系入口">
+      <button type="button" data-phone-alert>电话咨询</button>
+      <a href="#inquiry">提交需求</a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
